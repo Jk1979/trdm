@@ -1,0 +1,115 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bbb720ac24b2d3208f5c95a80324efd4",
+    "packages": [
+        {
+            "name": "coderockr/php-query",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Coderockr/phpQuery.git",
+                "reference": "942dff329b484bcadedce5255dab2ea01c9b8d6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Coderockr/phpQuery/zipball/942dff329b484bcadedce5255dab2ea01c9b8d6a",
+                "reference": "942dff329b484bcadedce5255dab2ea01c9b8d6a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "phpQuery": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Mit"
+            ],
+            "authors": [
+                {
+                    "name": "Duvanmonsa",
+                    "email": "duvanmonsa@gmail.com",
+                    "homepage": "https://github.com/duvanmonsa",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Elton Minetto",
+                    "email": "eminetto@coderockr.com",
+                    "homepage": "https://github.com/eminetto",
+                    "role": "Developer"
+                }
+            ],
+            "description": "phpQuery",
+            "homepage": "https://github.com/coderockr/phpQuery",
+            "keywords": [
+                "lib",
+                "phpQuery"
+            ],
+            "time": "2016-02-05T16:04:06+00:00"
+        },
+        {
+            "name": "slim/pdo",
+            "version": "1.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FaaPz/Slim-PDO.git",
+                "reference": "2eaaae8c5fbfeba832bf3c8fa88b1780e23554ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FaaPz/Slim-PDO/zipball/2eaaae8c5fbfeba832bf3c8fa88b1780e23554ee",
+                "reference": "2eaaae8c5fbfeba832bf3c8fa88b1780e23554ee",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\PDO\\": "src/PDO/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabian de Laender",
+                    "email": "fabian@faapz.nl",
+                    "homepage": "http://faapz.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PDO database library for Slim Framework",
+            "homepage": "https://github.com/FaaPz/Slim-PDO",
+            "keywords": [
+                "database",
+                "framework",
+                "pdo",
+                "slim"
+            ],
+            "time": "2017-08-15T10:42:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "coderockr/php-query": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

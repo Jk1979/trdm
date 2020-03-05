@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+.widget {
+/*    border: 1px solid #ccc;
+    border-radius: 3px;*/
+}
+
+.widget h2 {
+    padding: 5px;
+    
+}
+
+.widget h3 {
+    padding: 5px;
+     font-family: Helvetica, Arial,  sans-serif;
+    font: 17px Helvetica, Arial,  Tahoma, Calibri,   sans-serif;
+}
+
+.w_stat h3{ 
+    padding: 5px;
+/*             font: 20px Tahoma, Calibri,  Arial, Helvetica, sans-serif;*/
+}
+
+.w_topproducts_prod {
+    margin-right: 3px;
+    text-align: center;
+    float:left;
+    width:180px;
+    /*border:1px solid #000;*/
+   
+    
+}
+.w_topproducts_prod img {
+    border: none;
+}
+
+.w_topmenu {
+    
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    /*position: absolute;
+    right:10px;
+    top:108px;*/
+}
+
+.w_topmenu a{
+    color: #f0f0f0;
+    padding-left: 5px;
+    text-decoration:none;
+}
+.w_topmenu a:hover{
+    text-decoration: underline;
+}
+.w_menuaccount a {
+    font-size:11px;
+    padding:7px;
+    color:darkblue;
+    margin-bottom: 2px;
+    display: block;
+    border-bottom: 1px dashed #f0f0f0;
+}
+
+.w_login input{
+    margin: 5px 0px;
+   
+    
+}
+.w_login h2 {
+    padding: 5px;
+    /*font: 20px Tahoma, Calibri,  Arial, Helvetica, sans-serif;*/
+}
+
+.w_category h2 {
+    padding: 5px;
+    /*font: 20px Tahoma, Calibri,  Arial, Helvetica, sans-serif;*/
+}
+.w_category a{
+    color: #004352;
+    text-decoration:none;
+}
+.w_cat_root {
+   
+    font-weight: bold;   
+}
+
+.w_cart {
+    margin-right: 3px;
+    text-align: center;
+    width: 200px;
+/*    float: right;*/
+   
+    
+}
+.w_cart h3 {
+    padding: 5px;
+    font-size: 17px;
+}
+
+.w_cart a{
+    text-decoration: none;
+}
+
+.w_cart p{
+    font: 12px Arial, Helvetica, Tahoma, Calibri,   sans-serif;
+}
+
+.cart_sum {
+    font: 16px Arial, Helvetica, Tahoma, Calibri,   sans-serif;
+    color: #f60;
+}

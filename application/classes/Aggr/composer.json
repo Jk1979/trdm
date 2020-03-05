@@ -1,0 +1,18 @@
+{
+    "name": "jenya/test.loc",
+    "authors": [
+        {
+            "name": "jk1979",
+            "email": "jk280679@gmail.com"
+        }
+    ],
+    "require": {
+      "slim/pdo": "~1.10",
+      "coderockr/php-query":"@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

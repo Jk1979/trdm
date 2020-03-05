@@ -1,0 +1,16 @@
+/*.*
+**/images/
+**/img/
+**/uploads/
+webstat
+public/uploads
+public/libs
+public/fonts
+public/i
+application/config
+application/cache
+application/logs
+application/utf8
+application/i18n
+!public/js
+!.gitignore
