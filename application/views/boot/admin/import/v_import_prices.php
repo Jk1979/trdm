@@ -6,6 +6,10 @@
               Плитка <input id="type" type = "radio" name ="typeGoods" value = "plitka" checked /><br />
               Сантехника <input id="type" type = "radio" name ="typeGoods" value = "santehnika"  /><br />
       </div>
+      <div>
+        <p style="margin-right: 20px;">Не учитывть при загрузке 3й сорт, xbc </p>
+        <input id="checkxbc" type = "checkbox" name ="checkxbc"/><br />
+      </div>
   <div class="fileloadbox">
     <input type="hidden" name="directory" value="import" id="importdir">
     <input type="hidden" value="" name="selectFile" id="selectedFile">

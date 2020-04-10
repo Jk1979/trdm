@@ -74,10 +74,10 @@ class Widget {
         // Получаем текущий контроллер и экшен
         $controller = Request::current()->controller();
         $action = Request::current()->action();
-       
+
         // Загружаем файл конфигураций
          $widget_config = Kohana::$config->load("$this->_config_filename.$this->_widget_name.$controller");
-        
+
          // Запрещаем вывод виджета в экшенах, указанных в конфигах
          if ($widget_config != NULL)
          {
@@ -94,7 +94,7 @@ class Widget {
 
        $this->_params['controller'] = $this->_widget_name;
        $url = Route::get($this->_route_name)->uri($this->_params);
-       
+         
        return Request::factory($url)->execute();
     }
 

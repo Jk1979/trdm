@@ -632,7 +632,7 @@ if(file_exists($file_name)){
     }
     if(isset($_POST['createcsv']))
     {
-
+        //print_r($_POST); exit;
 		 $src = "http://wsn.agromat.ua/bilgibankasi/plst.zip";
 			$newfile = file_get_contents($src);
 			$saveto=$_SERVER['DOCUMENT_ROOT'].'/public/uploads/import/plst.zip';
@@ -695,15 +695,17 @@ if(file_exists($file_name)){
     while(($dt = fgetcsv($file,1000,chr(9))) !== FALSE)
     {
        // $d = iconv('WINDOWS-1251', 'UTF-8//IGNORE',$dt[1]);
-
+       
       if( in_array($dt[1], $list) )
       {
-             if (preg_match($pat_exit,$dt[2]) || preg_match($pat_exit1,$dt[2])
-				 || preg_match($pat_exit2,$dt[2]) || preg_match($pat_exit3,$dt[2])
-    			 || preg_match($pat_exit11,$dt[2]) )
-			  {
-				continue;
-			  }
+          if(empty($_POST['checkxbc'])) {
+              if (preg_match($pat_exit,$dt[2]) || preg_match($pat_exit1,$dt[2])
+                  || preg_match($pat_exit2,$dt[2]) || preg_match($pat_exit3,$dt[2])
+                  || preg_match($pat_exit11,$dt[2]) )
+               {
+                 continue;
+               }
+          }
 
 			fputcsv($h2,$dt,";");
             $i++;
